@@ -12,6 +12,13 @@ module.exports = {
   },
   verbose: true,
   coverageReporters: ['lcov', 'text'],
+  collectCoverageFrom: [
+    '!**/tests/integration/**',
+    '!**/**/index.ts',
+    '!**/**/.eslintrc.js',
+    '!**/**/jest.config.js',
+    '!**/**/jest.integration.config.js',
+  ],
   coverageThreshold: {
     global: {
       branches: 90,

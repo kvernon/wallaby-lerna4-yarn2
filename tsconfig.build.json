@@ -5,7 +5,7 @@
     "module": "commonjs",
     "allowJs": false,
     "declaration": true,
-    "sourceMap": false,
+    "sourceMap": true,
     "composite": true,
     "removeComments": false,
     "noEmitOnError": true,
