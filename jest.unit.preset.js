@@ -14,7 +14,6 @@ module.exports = {
   coverageReporters: ['lcov', 'text'],
   collectCoverageFrom: [
     '!**/tests/integration/**',
-    '!**/**/index.ts',
     '!**/**/.eslintrc.js',
     '!**/**/jest.config.js',
     '!**/**/jest.integration.config.js',

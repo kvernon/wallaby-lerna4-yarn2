@@ -1,7 +1,8 @@
 {
   "name": "wallaby-yarn2",
   "scripts": {
-    "test": "lerna run test"
+    "test": "lerna run test",
+    "test:cov": "lerna run test:cov"
   },
   "devDependencies": {
     "jest": "^27.0.4",
