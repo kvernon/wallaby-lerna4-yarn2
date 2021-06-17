@@ -1,0 +1,24 @@
+{
+  "name": "@company/core-sdk",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest --detectOpenHandles"
+  },
+  "main": "dist/lib/index.js",
+  "types": "dist/lib/index.d.ts",
+  "directories": {
+    "dist": "dist",
+    "lib": "lib",
+    "test": "tests"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "jest": "^27.0.4",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "@company/http-client-sdk": "^1.0.0",
+    "@company/utils-sdk": "^1.0.0"
+  }
+}

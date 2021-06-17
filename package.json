@@ -1,0 +1,15 @@
+{
+  "name": "wallaby-yarn2",
+  "scripts": {
+    "test": "lerna run test"
+  },
+  "devDependencies": {
+    "jest": "^27.0.4",
+    "lerna": "^4.0.0",
+    "lerna-add-many": "^1.0.0",
+    "use-yarn": "^2.2.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

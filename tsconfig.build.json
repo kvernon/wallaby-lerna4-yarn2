@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "commonjs",
+    "allowJs": false,
+    "declaration": true,
+    "sourceMap": false,
+    "composite": true,
+    "removeComments": false,
+    "noEmitOnError": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "typeRoots": ["node_modules/@types"],
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noLib": false,
+    "allowUnreachableCode": false,
+    "resolveJsonModule": true
+  }
+}
