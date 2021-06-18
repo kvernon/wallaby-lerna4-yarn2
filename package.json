@@ -2,6 +2,7 @@
   "name": "wallaby-yarn2",
   "scripts": {
     "test": "lerna run test",
+    "test:int": "lerna run test:int",
     "test:cov": "lerna run test:cov"
   },
   "devDependencies": {

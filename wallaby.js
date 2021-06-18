@@ -4,7 +4,7 @@ module.exports = () => ({
     '**/packages/lib/**/*'
   ],
   tests: [
-    '**/tests/unit/**/*.test.*',
+    '**/tests/**/**/*.test.*',
     { pattern: 'node_modules/@company/**', ignore: true }
   ],
   testFramework: {

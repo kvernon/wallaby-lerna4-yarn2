@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "test": "jest --detectOpenHandles",
-    "test:int": "jest --config ./jest.inte.config.js --detectOpenHandles",
+    "test:int": "jest --config jest.int.config.js --detectOpenHandles",
     "test:cov": "jest --coverage --detectOpenHandles"
   },
   "main": "dist/lib/index.js",
