@@ -93,3 +93,14 @@ lerna success - @company/core-sdk
 ```
 
 From above, jest cli shows coverage for index.ts
+
+
+run in windows
+
+```
+0 failing tests, 1 passing  Launch Coverage/Test Explorer
+
+Failed to initialize wallaby jest.
+Cannot read property 'context' of undefined
+
+```
