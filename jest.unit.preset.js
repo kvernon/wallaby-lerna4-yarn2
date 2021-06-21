@@ -13,6 +13,7 @@ module.exports = {
   verbose: true,
   coverageReporters: ['lcov', 'text'],
   collectCoverageFrom: [
+    '**/*.ts',
     '!**/tests/integration/**',
     '!**/**/.eslintrc.js',
     '!**/**/jest.config.js',
