@@ -95,7 +95,7 @@ lerna success - @company/core-sdk
 From above, jest cli shows coverage for index.ts
 
 
-run in windows
+run in Windows 10 or mac (sierra)
 
 ```
 0 failing tests, 1 passing  Launch Coverage/Test Explorer

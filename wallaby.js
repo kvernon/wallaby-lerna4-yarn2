@@ -1,7 +1,8 @@
 module.exports = () => ({
   autoDetect: true,
   files: [
-    '**/packages/lib/**/*'
+    '**/packages/lib/**/*',
+    { pattern: 'node_modules/@company/**', ignore: true }
   ],
   tests: [
     '**/tests/**/**/*.test.*',
