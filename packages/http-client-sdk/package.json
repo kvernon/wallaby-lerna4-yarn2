@@ -2,7 +2,8 @@
   "name": "@company/http-client-sdk",
   "version": "1.0.0",
   "scripts": {
-    "test": ""
+    "test": "jest --detectOpenHandles",
+    "test:cov": "jest --coverage --detectOpenHandles"
   },
   "main": "dist/lib/index.js",
   "types": "dist/lib/index.d.ts",
