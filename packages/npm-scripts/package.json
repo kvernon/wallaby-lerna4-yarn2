@@ -1,12 +1,11 @@
 {
   "name": "@company/npm-scripts",
   "scripts": {
-    "test": ""
+    "test": "jest --detectOpenHandles",
+    "test:cov": "jest --coverage --detectOpenHandles"
   },
-  "main": "dist/lib/index.js",
-  "types": "dist/lib/index.d.ts",
+  "main": "lib/index.js",
   "directories": {
-    "dist": "dist",
     "lib": "lib",
     "test": "tests"
   },

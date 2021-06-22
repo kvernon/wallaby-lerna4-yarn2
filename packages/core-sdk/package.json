@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "test": "jest --detectOpenHandles",
-    "test:cov": "jest --coverage --detectOpenHandles"
+    "test:cov": "jest --coverage --detectOpenHandles",
+    "test:int": "jest --config ./jest.integration.config.js --detectOpenHandles"
   },
   "main": "dist/lib/index.js",
   "types": "dist/lib/index.d.ts",

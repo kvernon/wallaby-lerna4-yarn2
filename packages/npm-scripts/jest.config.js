@@ -1,20 +1,14 @@
-const { pathsToModuleNameMapper } = require('ts-jest/utils');
-// Load the config which holds the path aliases.
-const { compilerOptions } = require('../../tsconfig.json');
-
 const packageFile = require('./package.json');
+const preset = require('../../jest.unit.preset');
+
+delete preset.testMatch;
+delete preset.globals;
+delete preset.transform;
+delete preset.coverageThreshold;
 
 module.exports = {
+  ...preset,
+  testMatch: ['**/tests/**/?(*.)+(spec|test).[jt]s?(x)'],
   displayName: packageFile.name,
-  preset: '../../jest.unit.preset.js',
-  globals: {
-    'ts-jest': {
-      tsconfig: '<rootDir>/tsconfig.json'
-    }
-  },
-  moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths, {
-    // This has to match the baseUrl defined in tsconfig.json.
-    prefix: '<rootDir>/../../'
-  }),
   coverageDirectory: `../../coverage/packages/${packageFile.name}`
 };
